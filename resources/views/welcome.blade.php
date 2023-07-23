@@ -28,7 +28,7 @@
             <span>Written By {{$post->user->name}}</span>
           </p>
           <h4 style="font-weight: bolder">
-            <a href="{{route('blog.show', $post)}}">{{$post->title}}</h4>
+            <a href="{{route('blog.show', $post)}}">{{$post->title}}</a></h4>
         </div>
         @endforeach
         </section>

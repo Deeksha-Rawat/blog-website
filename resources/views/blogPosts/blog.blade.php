@@ -7,24 +7,8 @@
       @if (session('status'))
         <p style="color:white; font-size:18px;font-weigth:500;;background:#1abd1a;padding:10px;margin-bottom:10px;border-radius:10px">{{session('status')}}</p>
     @endif
-      <div class="searchbar">
-        <form action="">
-          <input type="text" placeholder="Search..." name="search" />
-
-          <button type="submit">
-            <i class="fa fa-search"></i>
-          </button>
-
-        </form>
-      </div>
-      <div class="categories">
-        <ul>
-          <li><a href="">Health</a></li>
-          <li><a href="">Entertainment</a></li>
-          <li><a href="">Sports</a></li>
-          <li><a href="">Nature</a></li>
-        </ul>
-      </div>
+      
+      
       <section class="cards-blog latest-blog">
         
         @foreach ($posts as $post)
@@ -49,7 +33,7 @@
                     <h4>
                         <a href="{{ route('blog.show', $post) }}">{{ $post->title }}</a>
                     </h4>
-                </div>
+          </div>
         @endforeach
 
         <!-- pagination -->
@@ -59,9 +43,7 @@
           <a href="">&laquo;</a>
           <a class="active" href="">1</a>
           <a href="">2</a>
-          <a href="">3</a>
-          <a href="">4</a>
-          <a href="">5</a>
+          
           <a href="">&raquo;</a>
         </div>
         <br>

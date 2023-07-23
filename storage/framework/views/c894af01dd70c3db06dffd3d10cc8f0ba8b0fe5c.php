@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home - Alphayo Blog</title>
+    <title>Home -  Blog</title>
     <!-- Css -->
     <!-- <link rel="stylesheet" href="style.css" /> -->
     <link rel="stylesheet" href="<?php echo e(asset('css/style.css')); ?>" /> 
@@ -13,6 +13,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
+    <link href="<?php echo e(asset('css/app.css')); ?>" rel="stylesheet">
+
     <?php echo $__env->yieldContent('head'); ?>
   </head>
   <body>
@@ -23,7 +25,7 @@
       <!-- sidebar -->
       <div class="sidebar">
         <span class="closeButton">&times;</span>
-        <p class="brand-title"><a href="">Alphayo Blog</a></p>
+        <p class="brand-title"><a href=""> Blog</a></p>
 
         <div class="side-links">
         <ul>
@@ -58,7 +60,7 @@
             <a href=""><i class="fab fa-twitter"></i></a>
           </div>
 
-          <small>&copy 2021 Alphayo Blog</small>
+          <small>&copy 2023 Blog</small>
         </footer>
       </div>
       <!-- Menu Button -->
@@ -77,7 +79,7 @@
           <a href=""><i class="fab fa-instagram"></i></a>
           <a href=""><i class="fab fa-twitter"></i></a>
         </div>
-        <small>&copy 2021 Alphayo Blog</small>
+        <small>&copy 2023 Blog</small>
       </footer>
     </div>
 

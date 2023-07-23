@@ -29,7 +29,7 @@
             <span>Written By <?php echo e($post->user->name); ?></span>
           </p>
           <h4 style="font-weight: bolder">
-            <a href="<?php echo e(route('blog.show', $post)); ?>"><?php echo e($post->title); ?></h4>
+            <a href="<?php echo e(route('blog.show', $post)); ?>"><?php echo e($post->title); ?></a></h4>
         </div>
         <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
         </section>
